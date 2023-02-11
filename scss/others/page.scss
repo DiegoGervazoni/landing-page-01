@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../../imagem/calleri.jpg);
+  background-repeat: repeat;
+
+  color: white;
+}
+
+.paragraph{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+.container{
+  background-color: $background-color;
+  width: 750px;
+  height: auto;
+  border-radius: 20px 20px;
+  border: 2px solid black;
+}
+
+.btnColor{
+  color: $buttonColor;
+  border: 1px solid $buttonColor;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &:hover{
+    background-color: $buttonColor;
+    color: rgb(124, 53, 53);
+  }
+}
+
+.footer{
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
